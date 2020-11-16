@@ -1,0 +1,4 @@
+﻿1>------ Build started: Project: Varagana1, Configuration: Debug Any CPU ------
+1>C:\Users\moreza\source\repos\Varagana1\Varagana1\Controllers\AccountController.cs(31,34,31,113): warning CS0618: 'FormsAuthentication.HashPasswordForStoringInConfigFile(string, string)' is obsolete: 'The recommended alternative is to use the Membership APIs, such as Membership.CreateUser. For more information, see http://go.microsoft.com/fwlink/?LinkId=252463.'
+1>  Varagana1 -> C:\Users\moreza\source\repos\Varagana1\Varagana1\bin\Varagana1.dll
+========== Build: 1 succeeded, 0 failed, 1 up-to-date, 0 skipped ==========

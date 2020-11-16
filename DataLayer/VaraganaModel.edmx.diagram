@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="afd19d218a5845bfa6e363d353ed937a" Name="Diagram1" ZoomLevel="93">
+        <EntityTypeShape EntityType="Varagana_DBModel.Roles" Width="1.5" PointX="0.75" PointY="1.5" />
+        <EntityTypeShape EntityType="Varagana_DBModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="4.75" />
+        <EntityTypeShape EntityType="Varagana_DBModel.Users" Width="1.5" PointX="5.5" PointY="0.75" />
+        <AssociationConnector Association="Varagana_DBModel.FK_Users_Roles" />
+        <EntityTypeShape EntityType="Varagana_DBModel.Product_Groups" Width="1.5" PointX="3.375" PointY="4.75" />
+        <AssociationConnector Association="Varagana_DBModel.FK_Product_Groups_Product_Groups" />
+        <EntityTypeShape EntityType="Varagana_DBModel.Product_Selected_Group" Width="1.5" PointX="7.625" PointY="5.75" />
+        <EntityTypeShape EntityType="Varagana_DBModel.Product_Tags" Width="1.5" PointX="7.625" PointY="9.125" />
+        <EntityTypeShape EntityType="Varagana_DBModel.Products" Width="1.5" PointX="5.375" PointY="5.875" />
+        <AssociationConnector Association="Varagana_DBModel.FK_Product_Selected_Group_Product_Groups" />
+        <AssociationConnector Association="Varagana_DBModel.FK_Product_Selected_Group_Products" />
+        <AssociationConnector Association="Varagana_DBModel.FK_Product_Tags_Products" />
+        <EntityTypeShape EntityType="Varagana_DBModel.Product_Galleries" Width="1.5" PointX="7.625" PointY="12.5" />
+        <AssociationConnector Association="Varagana_DBModel.FK_Product_Galleries_Products" />
+        <EntityTypeShape EntityType="Varagana_DBModel.Features" Width="1.5" PointX="8.375" PointY="2.875" />
+        <EntityTypeShape EntityType="Varagana_DBModel.Product_Features" Width="1.5" PointX="10.25" PointY="6.375" />
+        <AssociationConnector Association="Varagana_DBModel.FK_Product_Features_Features" />
+        <AssociationConnector Association="Varagana_DBModel.FK_Product_Features_Products" />
+        <EntityTypeShape EntityType="Varagana_DBModel.Product_Comments" Width="1.5" PointX="7.625" PointY="16" />
+        <AssociationConnector Association="Varagana_DBModel.FK_Product_Comments_Product_Comments" />
+        <AssociationConnector Association="Varagana_DBModel.FK_Product_Comments_Products" />
+        <EntityTypeShape EntityType="Varagana_DBModel.OrderDetails" Width="1.5" PointX="12.125" PointY="4.625" />
+        <EntityTypeShape EntityType="Varagana_DBModel.Orders" Width="1.5" PointX="8.375" PointY="0.5" />
+        <AssociationConnector Association="Varagana_DBModel.FK_OrderDetails_Orders" />
+        <AssociationConnector Association="Varagana_DBModel.FK_OrderDetails_Products" />
+        <AssociationConnector Association="Varagana_DBModel.FK_Orders_Users" />
+        <EntityTypeShape EntityType="Varagana_DBModel.Sliderr" Width="1.5" PointX="0.75" PointY="7.75" />
+        <EntityTypeShape EntityType="Varagana_DBModel.SiteVisit" Width="1.5" PointX="10.375" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
